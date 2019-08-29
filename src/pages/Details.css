@@ -1,0 +1,78 @@
+.body-bg-no-image{
+    justify-content: center;
+}
+.body-bg-no-image .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .info {
+    background: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 1.5rem; 
+    display: none;
+  }
+  
+  .info .gamertag {
+    display: flex;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+ 
+  .info .gamertag img {
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  .details {
+    display: flex;
+    align-items: center;
+  }
+
+  .info .details img {
+    height: 300px;
+  }  
+
+  .track {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .track h3 {
+    font-size: 15px;
+    font-weight: 400;    
+  }
+
+  .track p {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .track div {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: .5rem .9rem;
+  } 
+
+  .track .dados {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .track .dados span {
+    font-size: 12px;
+    opacity: .8;
+    margin-left: 5px;
+  }
